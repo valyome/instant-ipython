@@ -11,7 +11,7 @@ Usage
 
 ### Deploying
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mietek/instant-ipython)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vyolovski/instant-ipython)
 
 **Note:**  Building IPython may take up to 15 minutes.  Do not be discouraged by the apparent lack of progress.  If the build times out, try again.
 
