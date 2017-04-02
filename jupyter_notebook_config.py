@@ -8,7 +8,8 @@ c.NotebookApp.contents_manager_class = PostgresContentsManager
 # Set the url for the database used to store files.  See
 # http://docs.sqlalchemy.org/en/rel_0_9/core/engines.html#postgresql
 # for more info on db url formatting.
-c.PostgresContentsManager.db_url = os.environ.get('PGCONTENTS_DB_URL', '')
+database_url = os.environ.get('DATABASE_URL', None)
+c.PostgresContentsManager.db_url = database_url
 
 # PGContents associates each running notebook server with a user, allowing
 # multiple users to connect to the same database without trampling each other's
