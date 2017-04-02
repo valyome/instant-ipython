@@ -14,4 +14,4 @@ c.PostgresContentsManager.db_url = os.environ.get('PGCONTENTS_DB_URL', '')
 # multiple users to connect to the same database without trampling each other's
 # notebooks. By default, we use the result of result of getpass.getuser(), but
 # a username can be specified manually like so:
-c.PostgresContentsManager.user_id = 'default_user'
+# c.PostgresContentsManager.user_id = 'default_user'
