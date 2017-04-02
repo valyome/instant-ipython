@@ -16,3 +16,4 @@ c.PostgresContentsManager.db_url = database_url
 # notebooks. By default, we use the result of result of getpass.getuser(), but
 # a username can be specified manually like so:
 # c.PostgresContentsManager.user_id = 'default_user'
+c.PostgresContentsManager.user_id = 'heroku'
