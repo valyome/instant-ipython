@@ -3,7 +3,7 @@ Instant IPython
 
 [IPython Notebook](http://ipython.org/notebook.html) packaged for Heroku.
 
-**Note:**  There is currently no provision for permanent storage.  All data will be lost on restart.
+**Note:**  I've added persistent storage throguh Postgres on Heroku. 
 
 
 Usage
@@ -45,4 +45,4 @@ Password used to protect the notebook from unauthorised access.
 About
 -----
 
-Made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](https://mietek.io/license/).
+Originally made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](https://mietek.io/license/). Edited and imporved by Valyo Yolovski.
